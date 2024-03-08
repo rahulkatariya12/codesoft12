@@ -1,0 +1,283 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(77, 76, 76);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.nav .logo {
+    width: 50%;
+}
+
+.nav .logo h2 b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px;
+   color: white;
+}
+
+.nav .logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px;
+    letter-spacing: 5px;
+    color: rgb(29, 27, 27);
+    font-weight: lighter;
+    color: white;
+}
+
+.nav .list {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.nav .list li {
+    list-style: none;
+    padding: 12px;
+    font-size: 20px;
+    color: rgb(126, 125, 125);
+    color: white;
+}
+
+
+.bg {
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 12px;
+    letter-spacing: 5px;
+    color: rgb(29, 27, 27);
+    font-weight: bolder;
+    color: white;
+}
+
+h1 span {
+    background-color: black;
+    padding: 10px;
+    opacity: .9;
+}
+
+.head {
+    margin: 15px;
+    border-bottom: 1px solid rgb(151, 149, 149);
+    padding: 10px;
+}
+
+.head-1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-1 {
+    width: 24%;
+    margin: 5px;
+}
+
+.image-1 img {
+    width: 100%;
+    opacity: 0.5;
+    /* transition: all 2s; */
+}
+.image-1 img:hover {
+    opacity: 1;
+    /* transform: perspective(1000px) translateZ(100px); */
+}
+
+.image-2
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.paragraph
+{
+    margin: 20px;
+}
+.paragraph p
+{
+text-align: justify;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 1px;
+}
+
+/* about */
+.founder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder-1
+{
+   width: 100%;
+   margin: 20px;
+}
+.founder-1 img
+{
+    width: 95%;
+    transition: all 2s;
+}
+.founder-1 img:hover
+{
+    /* transform: perspective(800px) translateZ(300px); */
+    transform: scale(1.1);
+}
+.found
+{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(26, 26, 25);
+}
+.found-1
+{
+    
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 110, 110);
+}
+.found-1
+{
+    
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 110, 110);
+}
+.fn
+{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(39, 39, 39);
+    text-align: justify;
+}
+.btn button
+{
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border: none;
+}
+.btn button:hover
+{
+    border: 1px solid grey;
+    background-color: rgb(235, 234, 234);
+}
+
+/* contact form */
+.contact
+{
+    margin: 20px;
+    font-size: 20px;
+}
+.contact h4
+{
+    font-weight: lighter;
+}
+
+
+.contact-1
+{
+   margin: 30px;
+}
+.contact-1 input
+{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(204, 203, 203);
+}
+::placeholder
+{
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+
+#btn1
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+#btn1:hover
+{
+    background-color: grey;
+    color: black;
+    border: 1px solid grey;
+}
+
+/* footer image */
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* github id */
+.footer-2
+{
+    background-color: black;
+    padding: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.git
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.git:hover
+{
+    background-color: rgb(3, 121, 199);
+    padding: 5px;
+}
+
+#footer-1
+{
+    width: 100%;
+    height: 100vh;
+}
